@@ -9,10 +9,10 @@ branding:
   color: "red"
 inputs:
   email:
-    description: The commiter's email address
+    description: "The commiter's email address"
     required: true
-    defaul: ${{ github.actor }}@localhost
+    defaul: "${{ github.actor }}@localhost"
   name:
-    description: The commiter's name
+    description: "The commiter's name"
     required: true
-    defaul: ${{ github.actor }}
+    defaul: "${{ github.actor }}"
